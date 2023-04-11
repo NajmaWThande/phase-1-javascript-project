@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+.container-fluid{
+    background-image: url(./images/ship-2275399.jpg);
+    background-size: cover;
+    height:auto;
+}
+
+.row{
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    
+}
+/* Header */
+.header {
+    background-image: url(./images/thunder-953118.jpg);
+    background-size: cover;
+    background-position: relative;
+    color: rgb(12, 11, 6);
+    text-align: center;
+    padding: 5rem;
+}
+
+.header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    font-family: 'DynaPuff', cursive;
+    color: #f5c6f0;
+}
+.header p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5 rem;
+    color: #f5c0f3;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #f0c4ef;
+}
+.main {
+    background-color: #212121;
+    
+    
+}
+
+/* Input section */
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #570760;
+    color: #af34b3;
+    border-radius: 2px;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #a73bc3;
+    font-weight: bold;
+    color: rgb(246, 238, 248);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+/* Display */
+.display {
+    text-align: center;
+    color: #9e16a8;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: #212121;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
